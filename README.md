@@ -1,6 +1,6 @@
 # JavaScript-Text-Generator
 
-![](TypographyApp/Achess.gif)
+![](TypographyApp/img/Achess.gif)
 
 # Getting Started
 
