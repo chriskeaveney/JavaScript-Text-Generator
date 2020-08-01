@@ -10,6 +10,6 @@ Place the project folder in your computers htdocs folder
 
 Download and run XAMP server on your PC (or MAMP for mac computers)
 
-Open the 'Colour Tool' folder on localhost
+Open the 'TypographyApp' folder on localhost
 
 This app allows the user to alter the canvas text using generative design from several inputs.
