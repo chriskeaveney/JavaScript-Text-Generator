@@ -4,7 +4,7 @@
 
 To run this project on local host, Clone (or download) the repository:
 
-Git clone https://github.com/ck121146/MixHub.git
+Git clone https://github.com/chriskeaveney/JavaScript-Text-Generator.git
 
 Place the project folder in your computers htdocs folder
 
