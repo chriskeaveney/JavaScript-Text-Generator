@@ -15,3 +15,7 @@ Download and run XAMP server on your PC (or MAMP for mac computers)
 Open the 'TypographyApp' folder on localhost
 
 This app allows the user to alter the canvas text using generative design from several inputs.
+
+![](TypographyApp/img/1.png)
+
+![](TypographyApp/img/2.png)
