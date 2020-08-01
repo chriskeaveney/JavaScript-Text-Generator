@@ -1,5 +1,7 @@
 # JavaScript-Text-Generator
 
+![](TypographyApp/Achess.gif)
+
 # Getting Started
 
 To run this project on local host, Clone (or download) the repository:
