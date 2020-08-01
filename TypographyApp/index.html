@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="lib/p5.min.js" type="text/javascript"></script>
+    <script src="lib/p5.dom.js" type="text/javascript"></script>
+    <script src="lib/generative-design-library.js" type="text/javascript"></script>
+    <script src="lib/g.js" type="text/javascript"></script>
+    <script src="lib/opentype.js" type="text/javascript"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="margin: 0px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 box controls">
+
+                <div class="row">
+                    <div class="col-md-12">
+                      <p class="subtext">TEXT</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="textController" class="col-md-12">
+                    </div>
+                </div>
+                <br />
+
+                <div class="row">
+                    <div class="col-md-12">
+                      <p class="subtext">SETTINGS</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="fillController" class="col-md-12">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="NoiseController" class="col-md-12">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="mouseController" class="col-md-12">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="shapeController" class="col-md-12">
+                    </div>
+
+                </div>
+                <br />
+
+                <div class="col-md-4">
+                  <p> Animation: </p>
+                  <span id="RunAnimation"></span>
+                </div>
+
+                <div class="row ">
+                    <div class="col-md-12 text">
+                      <p class="subtext">PIXEL RADIUS</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="radiusController" class="col-md-12">
+                    </div>
+                </div>
+                <br />
+
+                <div class="row">
+                    <div class="col-md-12 text">
+                      <p class="subtext">DENSITY</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="densityController" class="col-md-12">
+                    </div>
+                </div>
+                <br />
+
+                <div class="row">
+                    <div class="col-md-12 text">
+                    <p class="subtext">TEXT SIZE</p>
+                  </div>
+                  <div id="textSizeController" class="col-md-12">
+                  </div>
+              </div>
+
+                <div class="row">
+                  <div id="txtSizeDrop" class="control select">
+                  </div>
+                </div>
+
+                <br />
+
+            </div>
+          <div class="col-md-8" id="canvasHolder"></div>
+        </div>
+      </div>
+    <script src="sketch.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-color: #000
+}
+
+h1 {
+  margin-top: 55px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#defaultCanvas0 {
+    padding-top: 50px !important;
+    padding-right: 20px !important;
+    padding-left: 50px;
+}
+
+.controls {
+  margin-top: 50px !important;
+  padding-right: 50px !important;
+  color: #fff;
+}
+
+#txtSizeDrop {
+  margin-left: 15px !important;
+}
+
+.dropdown-text {
+  margin-left: 15px !important;
+  margin-top: 10px;
+  color: #000;
+}
+
+.select {
+  color: #000 !important;
+}
